@@ -196,7 +196,6 @@ public class Solution {
     }
 
     class Entry<A, B> {
-
         private A value;
         private B key;
         private int pos;
@@ -205,29 +204,23 @@ public class Solution {
             this.value = value;
             this.key = key;
         }
-
         public A getValue() {
             return this.value;
         }
-
         public B getKey() {
             return this.key;
-        }
-        
+        }    
         public int getPos() {
         	return pos;
         }
         public void setPos(int newpos) {
         	pos = newpos;
-        }
-
-  
+        }  
         public B setKey(B key) {
             B oldKey = this.key;
             this.key = key;
             return oldKey;
         }
-
     }
 }
     
