@@ -1,2 +1,2 @@
-Hackkerrank Algorithms Challenges
+Hackerrank Algorithms Challenges
 
