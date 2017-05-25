@@ -3,7 +3,8 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
+//Solution to https://www.hackerrank.com/challenges/common-child
+// Problem is reduced to Longest Common Subsequence problem
 public class Solution {
 
     public static void main(String[] args) {       
